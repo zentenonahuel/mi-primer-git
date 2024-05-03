@@ -1,0 +1,9 @@
+agregar un cambio de codigo
+
+git add . 
+git commit -m "mensaje" 
+
+
+como se sube al remote
+
+git push origin master
