@@ -1,3 +1,5 @@
+git init // crea un nuevo repositorio de git
+
 agregar un cambio de codigo
 
 git add . 
@@ -6,4 +8,13 @@ git commit -m "mensaje"
 
 como se sube al remote
 
-git push origin master
+git remote add origin  // crea una nueva conexion a un repositorio remoto
+git push origin master // sube los cambios comitiados al reposotrio remoto
+
+echo "# mi-primer-git" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/zentenonahuel/mi-primer-git.git
+git push -u origin main
